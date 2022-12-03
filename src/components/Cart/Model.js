@@ -1,6 +1,6 @@
-import { Fragment } from 'react';
+import React,  { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import classes from './Model.module.css';
+import classes from "./Model.module.css";
 
 const Backdrop = (props) => {
   return <div className={classes.backdrop} onClick={props.onClose}/>;
@@ -27,4 +27,5 @@ const Model = (props) => {
     </Fragment>
   );
 };
+
 export default Model;
